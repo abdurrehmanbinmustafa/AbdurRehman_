@@ -413,7 +413,10 @@
             background: #334155;
         }
         
-       
+        .filter-btn.active, .filter-btn:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
         
         .portfolio-item {
             margin-bottom: 30px;
@@ -858,7 +861,7 @@
             <div class="portfolio-filter mb-5">
                 <button class="filter-btn active" data-filter="all">All</button>
                 <button class="filter-btn" data-filter="desktop">Desktop Applications</button>
-                <button class="filter-btn" data-filter="web">Web Projects</button>
+                <button class="filter-btn" data-filter="web" stye=paddig:10px>Web Projects</button>
             </div>
             <div class="row">
                 <!-- Java Swing Project -->
@@ -1088,6 +1091,7 @@
     </script>
 </body>
 </html>
+
 
 
 
